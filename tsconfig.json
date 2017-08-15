@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./built",
+        "allowJs": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        // "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "module": "commonjs",
+        "target": "es2017"
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "lib": [
+        "dom",
+        "es8"
+    ]
+}

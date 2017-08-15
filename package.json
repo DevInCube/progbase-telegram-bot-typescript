@@ -1,0 +1,27 @@
+{
+  "name": "progbase-telegram-bot-typescript",
+  "version": "1.0.0",
+  "description": "Telegram Bot for Progbase web-site (TypeScript)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node built/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PublicHadyniak/progbase-telegram-bot-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PublicHadyniak/progbase-telegram-bot-typescript/issues"
+  },
+  "homepage": "https://github.com/PublicHadyniak/progbase-telegram-bot-typescript#readme",
+  "dependencies": {
+    "request-promise-native": "^1.0.4",
+    "telegram-bot-api": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/request-promise-native": "^1.0.6"
+  }
+}
